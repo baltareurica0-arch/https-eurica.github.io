@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebration Party</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+  <header>
+    <h1>🎉 Welcome to Our Celebration Party!</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Join us as we celebrate a special moment filled with joy, laughter, and memories. Enjoy the music, food, and fun activities we’ve prepared!</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>This website was created to share the happiness of our celebration. It’s a simple project showing how technology connects people in joyful events.</p>
+  </section>
+
+  <section id="<img src="images/party.jpg" alt="Celebration Party" width="400">
+">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/250" alt="Party Photo 1">
+      <img src="https://via.placeholder.com/250" alt="Party Photo 2">
+      <img src="https://via.placeholder.com/250" alt="Party Photo 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email us at: <a href="mailto:celebrationparty@email.com">celebrationparty@email.com</a></p>
+  </section>
+
+  <footer>
+  <p>© 2025 Celebration Party | Made with 💖 by [Your Name]</p>
+  <p id="clock">Current time: --:--:--</p>
+  <button onclick="changeBackground()">🎨 Change Background Color</button>
+
+</footer>
