@@ -1,0 +1,23 @@
+// 🎉 script.js
+// Welcome message when the website loads
+window.addEventListener("load", function() {
+  alert("🎉 Welcome to our Celebration Party Website!");
+});
+
+// Show the current time in the footer
+function updateClock() {
+  const now = new Date();
+  const timeString = now.toLocaleTimeString();
+  const clock = document.getElementById("clock");
+  if (clock) {
+    clock.textContent = "Current time: " + timeString;
+  }
+}
+setInterval(updateClock, 1000);
+
+// Background color changer
+function changeBackground() {
+  const colors = ["#fdf6f0", "#fff0f5", "#ffe4e1", "#f0fff0", "#e6e6fa"];
+  const randomColor = colors[Math.floor(Math.random() * colors.length)];
+  document.body.style.background = randomColor;
+}
