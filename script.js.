@@ -21,4 +21,3 @@ function changeBackground() {
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
   document.body.style.background = randomColor;
 }
-
